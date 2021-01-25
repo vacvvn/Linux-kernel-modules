@@ -3,6 +3,7 @@
 #include <linux/kthread.h>  // for kthread_run
 #include <linux/wait.h>     // for wait queue
 #include <linux/delay.h>    // for msleep
+#include <linux/sched/task.h>
 
 MODULE_LICENSE("GPL");
 MODULE_AUTHOR("Slava Imameev");
